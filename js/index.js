@@ -360,7 +360,7 @@ Wall.prototype.stroke = function(strokeStyle, lineWidth, fromPosX, fromPosY, toP
 	while(this.strokeLock) {}
 	this.strokeLock = true;
 	
-	this.context.globalAlpha = 0.4;
+	//this.context.globalAlpha = 0.4;
 	var prevStrokeStyle = this.context.strokeStyle;
 	var prevlineWidth = this.context.lineWidth;
 	
@@ -374,7 +374,7 @@ Wall.prototype.stroke = function(strokeStyle, lineWidth, fromPosX, fromPosY, toP
 	
 	this.context.strokeStyle = prevStrokeStyle;
 	this.context.lineWidth = prevlineWidth;
-	this.context.globalAlpha = 1.0;
+	//this.context.globalAlpha = 1.0;
 	
 	this.strokeLock = false;
 }
