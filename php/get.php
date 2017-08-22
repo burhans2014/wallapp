@@ -7,8 +7,8 @@ $longitude = $_SESSION["longitude"];
 
 if($latitude >= 0) {
 
-	$latDir = "latp" . $latitude;
-	
+	$latDir = "lap" . $latitude;
+
 } else {
 
 	$latDir = "latn" . ($latitude * -1);
