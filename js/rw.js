@@ -1,5 +1,5 @@
 function MyFileReader() {
-	
+	// empty
 }
 
 MyFileReader.prototype.read = function(path, callBack) {
