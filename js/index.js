@@ -2,6 +2,7 @@
 // comment2
 // comment3
 // comment4
+// comment5
 Function.prototype.bind = Function.prototype.bind || function(fixThis) {
 
 	var func = this;
